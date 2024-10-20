@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Boiler palte conde */
+html,body {
+height: 100%;
+width: 100%;
+background-color: black;
+font-family: "Ubuntu", sans-serif;
+font-weight: 500;
+font-style: normal;
+color: white;
+overflow-x: hidden;
+}
+/* Nav bar code */
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    top: 0;
+
+}
+.nav-h1 {
+    color: sienna;
+    font-size: 25px;
+}
+/* Option code */
+.options a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.options i{
+    margin-left: 40px;
+    font-size: 20px;
+}
+/* Herosection code */
+.herosection {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
+.hero-left  {
+    height: 450px;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 120px;
+  
+}
+.hero-para {
+    font-size: 22px;
+    margin: 10px;
+
+}
+.hero-h1 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.hero-h1 span {
+    color: sienna;
+    padding-bottom: 20px;
+}
+.hero-btn {
+    margin-top: 10px;
+
+}
+.hero-btn button {
+    height: 50px;
+    width: 300px;
+    background-color: sienna;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+.hero-right {
+    height: 450px;
+    width: 50%; 
+
+    
+}
+
+.shops {
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.shops h1 {
+    font-size: 45px;
+    text-align: center;
+}
+.shops-h1 span{
+    color: sienna;
+}
+.shops-boxes {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 70px;
+    
+}
+.shops-box1 {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+.image {
+    background-color: gray;
+    height: 250px;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 2px solid black;
+    background-image: url("shirt.png");
+    background-size: cover;
+}
+
+.shops-box1-h3 {
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.shops-shirt-about p{
+    color: black;
+    text-align: center;
+}
+.shops-icon {
+    color: gold;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.shops-add-cart-button  button{
+   height: 40px;
+   width: 150px;
+   border-radius: 10px;
+   border: none;
+   background-color: sienna;
+   color: white;
+   font-size: 20px;
+   margin-left: 75px;
+   margin-top: 10px;
+}
+
+.shops-box2 {
+    height: 400px;
+    width: 300px;
+    background-color: gray;
+    border-radius: 20px;
+}
+.shops-box3 {
+    height: 400px;
+    width: 300px;
+    background-color: gray;
+    border-radius: 20px;
+
+}
+
